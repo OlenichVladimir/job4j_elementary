@@ -10,7 +10,7 @@ public class Calculator {
         int onePlusTwo = one + two;
         int fourTimeTwo = four * two;
         int fiveMinusTwo = five - two;
-        int sixDivTwo = six * two;
+        int sixDivTwo = six / two;
         System.out.println(onePlusTwo);
         System.out.println(fourTimeTwo);
         System.out.println(fiveMinusTwo);
