@@ -11,12 +11,11 @@ public class Fit {
         double rsl = (height - 110) * 1.15;
         return rsl;
     }
-    
+
     public static void main(String[] args) {
         double man = Fit.manWeight(176);
         double woman = Fit.womanWeight(173);
         System.out.println("Man 176 is " + man);
         System.out.println("Woman 173 is " + woman);
     }
-
 }
