@@ -2,7 +2,7 @@ package ru.job4j;
 
 public class Point {
     public static double distance(double x2, double x1, double y2, double y1) {
-        double x = Math.sqrt(Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2));
+        double x = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         return x;
     }
 
