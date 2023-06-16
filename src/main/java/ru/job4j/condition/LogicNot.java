@@ -40,5 +40,4 @@ public class LogicNot {
         System.out.println(rsl4);
         System.out.println(rsl5);
     }
-
 }
