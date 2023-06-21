@@ -12,7 +12,6 @@ public class CounterTest {
         int result = Counter.sumByEven(start, finish);
         int expected = 30;
         assertThat(result).isEqualTo(expected);
-
     }
 
     @Test
