@@ -1,7 +1,6 @@
 package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FindLoopTest {
@@ -16,7 +15,7 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHasNot10ThenMinus1() {
-        int[] data = new int[] {-1, 0, 1,};
+        int[] data = new int[] {-1, 0, 1};
         int el = 10;
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
