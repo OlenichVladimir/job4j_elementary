@@ -5,8 +5,19 @@ public class MatrixCheck {
         boolean result = true;
         for (int i = 0; i < board[row].length; i++) {
             if (board[row][i] != 'X') {
-                    result = false;
-                    break;
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public static boolean monoVertical(char[][] board, int column) {
+        boolean result = true;
+        for (int j = 0; j < board[column].length; j++) {
+            if (board[j][column] != 'X') {
+                result = false;
+                break;
             }
         }
         return result;
